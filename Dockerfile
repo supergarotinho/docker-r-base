@@ -1,2 +1,2 @@
 FROM r-base
-RUN Rscript install.packages('futile.logger')
+RUN Rscript -e "install.packages('futile.logger')"
